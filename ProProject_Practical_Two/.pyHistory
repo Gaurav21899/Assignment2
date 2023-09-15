@@ -1,0 +1,35 @@
+﻿arcpy.Describe('erhill_erhill')
+desc_raster = arcpy.Describe('erhill_erhill')
+desc_raster.bandCount
+desc_raster.CompressionType
+desc_raster.Format
+desc_raster.height
+desc_raster.width
+desc_raster = arcpy.Describe('erelev_erelev')
+desc_raster.bandCount
+desc_raster.Format
+desc_raster.extent
+desc = arcpy.Describe('MajorAttractions')
+desc.shapeType
+desc.spatialReference
+desc.spatialReference.name
+for field in desc.fields:     print(field)
+for field in desc.fields:     print(field.name)
+for field in desc.fields:     print(field.type)
+for field in desc.fields:     print(field.name + "-" + field.type)
+raster_desc = arcpy.Describe('erhill')
+raster_desc.bandCount
+raster_desc.CompressionType
+raster_desc.baseNAme
+raster_desc.baseName
+raster_desc.catalogPAth
+raster_desc.dataType
+raster_desc.extension
+raster_desc.path
+raster_desc.height
+raster_desc.width
+raster_desc.pixelType
+raster_desc.forma
+raster_desc = arcpy.Describe('erhill')
+raster_desc.format
+type(raster_desc)
